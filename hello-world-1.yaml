@@ -12,9 +12,9 @@ spec:
     - uri:
         prefix: "/test"
     - uri:
-        prefix: "/prueba"
+        prefix: /prueba
         rewrite:
-        uri: "/test"
+        uri: /test
     route:
     - destination:
         host: hello-world-1 # interpreted as reviews.foo.svc.cluster.local

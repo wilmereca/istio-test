@@ -13,7 +13,7 @@ spec:
         prefix: "/test"
     - uri:
         prefix: "/prueba"
-      rewrite:
+    rewrite:
         uri: "/test"
     route:
     - destination:

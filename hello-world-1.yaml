@@ -9,15 +9,15 @@ spec:
   http:
   - match:
     - uri:
-        prefix: /test/actuator
+        exact: /test/actuator
     rewrite:
-        uri: /test/
+        exact: /test/
     route:
     - destination:
         host: hello-world-1
   - match:
     - uri:
-        prefix: /test/
+        exact: /test/
     route:
     - destination:
         host: hello-world-1

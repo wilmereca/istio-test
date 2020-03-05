@@ -5,7 +5,7 @@ metadata:
   namespace: mercury-desa 
 spec:
   hosts:
-  - hello-world-1
+  - hello-world-2
   http:
   - match:
     - uri:

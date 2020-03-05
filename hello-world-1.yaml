@@ -7,14 +7,14 @@ spec:
   hosts:
   - hello-world-1 
   http:
-  - name: "hello-world-1"
+  - name: hello-world-1
     match:
     - uri:
-        prefix: "/test"
+        prefix: /test
     - uri:
-        prefix: "/prueba"
+        prefix: /prueba
     rewrite:
-        uri: "/test"
+        uri: /test
     route:
     - destination:
         host: hello-world-1

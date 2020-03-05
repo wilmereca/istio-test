@@ -14,10 +14,4 @@ spec:
         prefix: /test/
     route:
     - destination:
-        host: hello-world-1
-  - match:
-    - uri:
-        prefix: /test/
-    route:
-    - destination:
-        host: hello-world-1
+        host: hello-world-3

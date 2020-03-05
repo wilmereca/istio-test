@@ -11,7 +11,7 @@ spec:
     - uri:
         exact: /test/actuator
     rewrite:
-        exact: /test/
+        prefix: /test/
     route:
     - destination:
         host: hello-world-1

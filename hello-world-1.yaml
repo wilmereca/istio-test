@@ -9,7 +9,7 @@ spec:
   http:
   - match:
     - uri:
-        exact: /test/actuator
+        prefix: /test/actuator
     rewrite:
         prefix: /test/
     route:

@@ -7,10 +7,7 @@ spec:
   hosts:
   - hello-world-1 
   http:
-  - name: hello-world-1
-    match:
-    - uri:
-        prefix: /test
+  - match:
     - uri:
         prefix: /prueba
     rewrite:

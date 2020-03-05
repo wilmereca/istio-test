@@ -7,4 +7,4 @@ spec:
   host: hello-world-1
   trafficPolicy:
     tls:
-    mode: ISTIO_MUTUAL
+      mode: ISTIO_MUTUAL

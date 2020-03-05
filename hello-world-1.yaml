@@ -9,9 +9,9 @@ spec:
   http:
   - match:
     - uri:
-        prefix: /prueba
+        prefix: "/prueba"
     rewrite:
-        uri: /test
+        uri: "/test"
     route:
     - destination:
         host: hello-world-1

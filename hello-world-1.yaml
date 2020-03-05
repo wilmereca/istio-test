@@ -15,6 +15,6 @@ spec:
     route:
     - destination:
         host: hello-world-1
-          port:
-            number: 80
-          host: hello-world-1.mercury-desa.svc.cluster.local
+          # port:
+          #   number: 80
+          # host: hello-world-1.mercury-desa.svc.cluster.local

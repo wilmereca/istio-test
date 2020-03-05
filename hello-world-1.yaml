@@ -5,7 +5,7 @@ metadata:
   namespace: mercury-desa 
 spec:
   hosts:
-  - hello-world-1 # interpreted as reviews.foo.svc.cluster.local
+  - hello-world-1 
   http:
   - name: "hello-world-1"
     match:
@@ -13,8 +13,8 @@ spec:
         prefix: "/test"
     - uri:
         prefix: "/prueba"
-        rewrite:
+      rewrite:
         uri: "/test"
     route:
     - destination:
-        host: hello-world-2 # interpreted as reviews.foo.svc.cluster.local
+        host: hello-world-1

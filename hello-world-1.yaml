@@ -17,7 +17,7 @@ spec:
         host: hello-world-1
   - match:
     - uri:
-        exact: /test/
+        prefix: /test/
     route:
     - destination:
         host: hello-world-1
